@@ -1,0 +1,78 @@
+@import "bootstrap";
+@import 'font-awesome-sprockets';
+@import "font-awesome";
+
+.navbar-img {
+    background-image: url("header.jpg");
+}
+    
+.navbar-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+    
+.main_image {
+    background-image: url("illustrain02-dinosaur04.jpg");
+    height: 780px;
+    background-size: cover;
+    position: relative;
+}
+
+.main_image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.icon_color {
+    color:#FFF2D8;
+    position: absolute;
+    z-index: 1;
+}
+
+.sign_icon{
+    color: white;
+    z-index: 1;
+}
+
+.nav-item1{
+    color:#FFF2D8;
+    position: absolute;
+    z-index: 1;
+    left: 1170px;
+    top: 20px;
+}
+.nav-item2{
+    color:#FFF2D8;
+    position: absolute;
+    z-index: 1;
+    left: 1250px;
+    top: 20px;
+}
+
+.title{
+    color:rgb(255,255,255);
+    position: absolute;
+    top:220px;
+    left:485px;
+    text-shadow:3px 3px 4px #FDC010;
+}
+
+.sign_up_btn{
+    position: absolute;
+    top:290px;
+    left:675px;
+}
+
+footer{
+    background-color: #8B5030;
+}
